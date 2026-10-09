@@ -1,5 +1,10 @@
 # 邵艾伦Alan · Perspective Skill
 
+[![skills.sh](https://skills.sh/b/hjz112/Alan-skill)](https://skills.sh/hjz112/Alan-skill)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Standard-green)](https://agentskills.io)
+[![skills.sh](https://img.shields.io/badge/skills.sh-Compatible-blue)](https://skills.sh)
+
 > *「健身练的根本不是肌肉，是意志力。」*
 
 基于 邵艾伦Alan 在 **2026-08-02 ~ 2026-10-09** 的公开内容蒸馏的人物视角 Skill（**双模式**），适用于支持 Agent Skills 的工具（Codex / Claude Code / Cursor / Gemini CLI 等）。
@@ -19,8 +24,10 @@
 ## 安装
 
 ```bash
-# 方式一：复制整个目录到你的 skills 目录
-# 方式二：等上架 skills.sh 后一键安装
+# 方式一：skills.sh 一键安装（跨 runtime 自动识别）
+npx skills add hjz112/Alan-skill
+
+# 方式二：手动复制整个目录到你的 skills 目录
 ```
 
 ## 素材来源与版权

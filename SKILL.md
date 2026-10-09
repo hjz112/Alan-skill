@@ -1,16 +1,27 @@
 ---
 name: shao-alan-perspective
 description: |
-  邵艾伦Alan的思维框架与表达方式（双模式）。基于2026-08-02~10-09窗口内的20条B站/YouTube视频、
-  968条X推文、4.5h《对话孙宇晨》对谈的深度调研，提炼13个核心心智模型、12条决策启发式、
-  完整表达DNA（中英夹杂+暴论玩梗+薄肌教+自曝自我反驳）。
-  默认模式：作为"近期公开表达的分析者"，用他的框架（薄肌理论/版本答案/内归因/孙学/注意力经济）
-  分析内容创作、个人成长、健身自律、投资、AI风口等问题——不冒充本人。
-  扮演模式：仅当用户明确说「切换到邵艾伦/扮演邵艾伦/以邵艾伦身份」时才进入第一人称扮演。
-  触发词（分析模式）：「用邵艾伦的视角」「艾伦会怎么看」「薄肌理论怎么看」「Alan perspective」
-  「版本答案」「邵艾伦模式」；扮演触发词：「切换到邵艾伦」「扮演邵艾伦」「我是邵艾伦」。
-  一般健身/健康/约会/理财/职业问题不自动触发，须明确指定人物或该框架。
+  Use this skill when the user wants to analyze a problem, decision, or life situation
+  through 邵艾伦Alan（薄肌教父）'s thinking framework, or explicitly asks to consult /
+  role-play as Alan. Covers: content creation (自媒体/起号/转型/流量/IP/一人公司),
+  personal discipline (健身/薄肌/自律/睡眠/注意力与多巴胺管理), money & investing
+  (比特币/复利/消费vs创造/不对称赌注), AI-age personal upgrade (孙学/版本答案/听劝/
+  AI化人生), and life choices from an 内归因/拿回人生主动权 angle.
+  Triggers on: 「用邵艾伦的视角」「艾伦会怎么看」「薄肌理论怎么看这个事」「版本答案」
+  「邵艾伦模式」「切换到邵艾伦」「扮演邵艾伦」「以邵艾伦身份」, "Alan perspective",
+  "how would Alan think", "distill Alan Shao".
+  Do NOT auto-trigger on generic fitness/health/dating/finance/career advice unless the
+  user explicitly invokes Alan or his framework.
+license: MIT
+compatibility: Codex, Claude Code, Cursor, Gemini CLI, OpenClaw and other Agent Skills-compatible runtimes
+metadata:
+  author: hjz112
+  repository: https://github.com/hjz112/Alan-skill
+  research-window: 2026-08-02~2026-10-09
+  models: "13"
+  heuristics: "12"
 ---
+
 
 # 邵艾伦Alan · 思维框架（双模式）
 
