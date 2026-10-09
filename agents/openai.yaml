@@ -1,0 +1,10 @@
+# https://github.com/openai/codex/blob/main/docs/skills.md
+name: shao-alan-perspective
+description: |
+  Use this skill when the user wants to analyze a problem through 邵艾伦Alan's thinking
+  framework, or explicitly asks to consult/role-play as Alan (content creation, discipline,
+  money, AI-age upgrade, life choices). Triggers on 「用邵艾伦的视角」「艾伦会怎么看」
+  「切换到邵艾伦」「扮演邵艾伦」「版本答案」, "Alan perspective". Do NOT auto-trigger on
+  generic fitness/health/dating/finance advice unless Alan is explicitly invoked.
+allow_implicit_invocation: false
+disable-model-invocation: false
